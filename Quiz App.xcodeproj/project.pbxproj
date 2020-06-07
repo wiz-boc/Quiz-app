@@ -17,6 +17,7 @@
 		73259DA52485DA1800ACCA01 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73259DA42485DA1800ACCA01 /* QuizModel.swift */; };
 		73259DA82485E0C800ACCA01 /* Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 73259DA72485E0C800ACCA01 /* Questions.json */; };
 		73A93125248B3C2300F5255A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A93124248B3C2300F5255A /* ResultViewController.swift */; };
+		73A93127248C70B900F5255A /* StateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A93126248C70B900F5255A /* StateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		73259DA42485DA1800ACCA01 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
 		73259DA72485E0C800ACCA01 /* Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Questions.json; sourceTree = "<group>"; };
 		73A93124248B3C2300F5255A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		73A93126248C70B900F5255A /* StateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				73259DA22485D9B200ACCA01 /* Question.swift */,
 				73259DA42485DA1800ACCA01 /* QuizModel.swift */,
+				73A93126248C70B900F5255A /* StateManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				73259D932485D99D00ACCA01 /* ViewController.swift in Sources */,
 				73259DA32485D9B200ACCA01 /* Question.swift in Sources */,
 				73259D8F2485D99D00ACCA01 /* AppDelegate.swift in Sources */,
+				73A93127248C70B900F5255A /* StateManager.swift in Sources */,
 				73259D912485D99D00ACCA01 /* SceneDelegate.swift in Sources */,
 				73259DA52485DA1800ACCA01 /* QuizModel.swift in Sources */,
 				73A93125248B3C2300F5255A /* ResultViewController.swift in Sources */,

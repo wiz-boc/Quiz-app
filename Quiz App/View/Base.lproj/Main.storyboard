@@ -21,10 +21,10 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ix6-z8-EiI">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSg-Ra-mIg">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSg-Ra-mIg">
                                         <rect key="frame" x="20" y="0.0" width="374" height="448"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="set-1b-QT2">
@@ -91,6 +91,9 @@
                     <connections>
                         <outlet property="answerTable" destination="set-1b-QT2" id="CgA-dJ-RxB"/>
                         <outlet property="questionLabel" destination="gSg-Ra-mIg" id="tcq-kf-f6K"/>
+                        <outlet property="rootStackView" destination="ix6-z8-EiI" id="AOL-pO-iqE"/>
+                        <outlet property="stackViewLeadingconstraint" destination="vWb-2N-utf" id="qv6-Ab-D0K"/>
+                        <outlet property="stackViewTrailingConstraint" destination="H2T-K4-LbP" id="NjR-vS-Sqh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -107,7 +110,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0am-lD-XzG" userLabel="DimView">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.29858732876712329" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h6t-SW-Tse" userLabel="DialogView">
                                 <rect key="frame" x="40" y="144" width="334" height="618"/>
@@ -164,7 +167,7 @@
                         <viewLayoutGuide key="safeArea" id="EqG-Ht-Y6m"/>
                     </view>
                     <connections>
-                        <outlet property="dialogview" destination="h6t-SW-Tse" id="ru8-pJ-hT2"/>
+                        <outlet property="dialogView" destination="h6t-SW-Tse" id="ru8-pJ-hT2"/>
                         <outlet property="dimView" destination="0am-lD-XzG" id="sra-pg-vTM"/>
                         <outlet property="dismissButton" destination="006-h8-zAR" id="2Tk-ES-5zW"/>
                         <outlet property="feedbackLabel" destination="4OU-5g-yrc" id="P5E-dr-0Ev"/>
